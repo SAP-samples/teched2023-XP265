@@ -4,9 +4,9 @@
 
 For this session you will need access to a SAP Cloud Identity Service (SCI) tenant and a SAP SuccessFactors instance. 
 
-The SAP Cloud Identity Service tenant URL is specific for your seat in the workshop room. 
-Seat number in workshop: XY
-URL: https://bestrunXY.accounts.ondemand.com/admin/
+The SAP Cloud Identity Service tenant URL is specific for your seat in the workshop room.  
+Seat number in workshop: XY 
+URL: https://bestrunXY.accounts.ondemand.com/admin/ 
 
 Your user account for the SCI administrative console is:  TechEdIAS@bestrun.com
 
