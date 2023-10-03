@@ -8,7 +8,8 @@ This repository contains the material for the SAP TechEd 2022 session called Ses
 
 ## Overview
 
-This session introduces attendees to...
+Have you always wanted to know how to provision identities with SAP Cloud Identity Services but just didn't know where to start? The answer is simple: Get on the fast track in this hands-on session. Discover how to manage transformations with the Identity Provisioning service, and get a guided tour through the different provisioning job types.
+
 
 ## Requirements
 
