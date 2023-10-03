@@ -13,7 +13,7 @@ Have you always wanted to know how to provision identities with SAP Cloud Identi
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+None
 
 ## Exercises
 
