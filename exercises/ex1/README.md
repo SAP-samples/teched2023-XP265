@@ -4,20 +4,24 @@ In this exercise, we will learn about the different types of systems in Identity
 
 The Identity Provisioning service ensures the synchronization of the entities between a source system and one or multiple target systems.
 
-**Source Systems**
+**Source Systems** 
+
 A source system is the connector used for reading entities (users, groups, roles). Source systems can be on-premise or cloud-based, SAP or non-SAP, and usually represent the corporate user store where identities are currently maintained. Identity Provisioning reads the entities from the source system and creates or updates them in the relevant target ones. The provisioning is triggered from the Jobs tab of a source system.
 
 You can connect one source system to one or multiple target systems.
 
 <br>![](/exercises/ex1/images/sourcesys.png)
 
-**Target Systems**
+**Target Systems** 
+
 A target system is the connector used for writing (provisioning) entities. Target systems are usually clouds, where Identity Provisioning creates or updates the entities taken from the source system.
 
 A target system can be connected to a single or multiple source systems.
 
-**Proxy Systems**
+**Proxy Systems** 
+
 A proxy system is a special connector used for "hybrid" scenarios. It exposes any Identity Provisioning supported backend system as a SCIM 2.0 service provider, which can be consumed by any SCIM 2.0Information published on non-SAP site compatible client application, without making a direct connection between them.
+
 <br>![](/exercises/ex1/images/proxy.png)
 
 ## Example 1.1 Sub Exercise 1 Description
