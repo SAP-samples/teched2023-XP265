@@ -11,6 +11,7 @@ A source system is the connector used for reading entities (users, groups, roles
 You can connect one source system to one or multiple target systems.
 
 <br>![](/exercises/ex1/images/sourcesys.png width=50% height=50%)
+<img src="/exercises/ex1/images/sourcesys.png" width=50% height=50%>
 
 **Target Systems** 
 
