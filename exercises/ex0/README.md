@@ -11,6 +11,11 @@ Example: if your seat number is 01, then your URL is https://bestrun01.accounts.
 
 Your user account for the SCI administrative console is:  TechEdIAS@bestrun.com
 
+| Seat         | SCI tenant | User |
+|--------------|:-----:|-----------:|
+| 01|  https://bestrun01.accounts.ondemand.com/admin/   |        TechEdIAS@bestrun.com |
+| 02     |  1.89 |          6 |
+
 
 ## Summary
 
