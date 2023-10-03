@@ -10,7 +10,6 @@ A source system is the connector used for reading entities (users, groups, roles
 
 You can connect one source system to one or multiple target systems.
 
-<br>![](/exercises/ex1/images/sourcesys.png width=50% height=50%)
 <img src="/exercises/ex1/images/sourcesys.png" width=50% height=50%>
 
 **Target Systems** 
@@ -23,7 +22,9 @@ A target system can be connected to a single or multiple source systems.
 
 A proxy system is a special connector used for "hybrid" scenarios. It exposes any Identity Provisioning supported backend system as a SCIM 2.0 service provider, which can be consumed by any SCIM 2.0Information published on non-SAP site compatible client application, without making a direct connection between them.
 
-<br>![](/exercises/ex1/images/proxy.png)
+<img src="/exercises/ex1/images/proxy.png" width=50% height=50%>
+
+## Exercise 1.1 Creating a source system in IPS
 
 ## Example 1.1 Sub Exercise 1 Description
 
