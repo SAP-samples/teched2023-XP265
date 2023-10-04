@@ -57,11 +57,11 @@ Your user account for the SCI administrative console is:  TechEdIAS@bestrun.com
 ## System access
 1. Search for the browser on your computer and navigate to your SAP Cloud Identity Services
    
-<img src="/exercises/ex1/images/IAS1.png" width=50% height=50%>
+<img src="/exercises/ex0/images/IAS1.png" width=50% height=50%>
    
-3. Type the username and password and press **Log On**
+2. Type the username and password and press **Log On**
    
-   <img src="/exercises/ex1/images/IAS.png" width=50% height=50%>
+   <img src="/exercises/ex0/images/IAS.png" width=50% height=50%>
 
 
 ## Summary
