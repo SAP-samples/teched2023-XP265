@@ -32,6 +32,7 @@ A proxy system is a special connector used for "hybrid" scenarios. It exposes an
 
 2. Choose **Source Systems** from the drop-down list
 
+<img src="/exercises/ex1/images/sources.png" width=50% height=50%>
 
 ## Example 1.1 Sub Exercise 1 Description
 
