@@ -24,7 +24,14 @@ A proxy system is a special connector used for "hybrid" scenarios. It exposes an
 
 <img src="/exercises/ex1/images/proxy.png" width=50% height=50%>
 
-## Exercise 1.1 Creating a source system in IPS
+## Exercise 1.1 Creating a source system in IPS 
+
+1. Navigate to the Identity Provisioning tab in the administrative console: 
+
+<img src="/exercises/ex1/images/2IPS.png" width=50% height=50%>
+
+2. Choose **Source Systems** from the drop-down list
+
 
 ## Example 1.1 Sub Exercise 1 Description
 
