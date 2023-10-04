@@ -33,7 +33,7 @@ A proxy system is a special connector used for "hybrid" scenarios. It exposes an
 2. Choose **Source Systems** from the drop-down list
 
 <img src="/exercises/ex1/images/sources.png" width=50% height=50%>
-
+ 
 3. In order to add a new Source Systenm, please press on **+Add**
 4. Search for the **SAP SuccessFactors** connector Type
 5. Choose a meaningfull name and description for your system and when you are done press on **Save**
