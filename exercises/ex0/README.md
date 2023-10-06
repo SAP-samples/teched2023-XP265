@@ -1,19 +1,25 @@
 # Getting started
 
-   <img src="/exercises/ex0/images/SCI.png">
 
-   ---
-output: beamer_presentation
----
 
-:::: {.columns}
-::: {.column width="60%"}
-![giraffe](giraffe.jpg)
-:::
-::: {.column width="40%"}
-["Funny giraffe looking at the side"](https://www.flickr.com/photos/8070463@N03/9594476129) by [Tambako the Jaguar](https://www.flickr.com/photos/8070463@N03) is licensed under [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/?ref=ccsearch&atype=rich)
-:::
-::::
+
+   
+<img align="right" width="350" src="/exercises/ex0/images/SCI.png" />
+
+SAP Cloud Identity Services are the default to authenticate and provision users in cloud solutions from SAP:
+* Identity authentication 
+* Identity provisioning 
+* Authorization management
+* Integrated through the common Identity Directory
+
+The number of **pre-integrated SAP solutions** that require **SAP Cloud Identity Services** will increase.
+There is no need to separately license the usage of our services, when used with SAP cloud solutions. 
+**By default**, we offer **two tenants**: 
+* Test tenant
+* Production tenant
+
+ 
+
 
 ## Accessing the SAP Cloud Identity Services tenant
 
