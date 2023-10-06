@@ -18,7 +18,17 @@ There is no need to separately license the usage of our services, when used with
 * Test tenant
 * Production tenant
 
- 
+**What is Identity authentication?**
+The Identity Authentication service provides you with controlled cloud-based access to business processes, applications, and data. It simplifies your user experience through authentication mechanisms, single sign-on, on-premise integration, and convenient self-service options.
+
+**What is Identity Provisioning?**
+The Identity Provisioning service automates identity lifecycle processes. It helps you provision identities and their authorizations to various cloud and on-premise business applications.
+
+**What is Authorization Aanagement?** 
+Authorization management provides a central management of end-user authorizations for business applications based on SAP BTP Technology Platform. AMS is based on the existing Identity Directory of SAP Cloud Identity Services and enables customers to manage assignments of policies to users based on the Identity Directory SCIM API.
+
+**Identity Directory**
+
 
 
 ## Accessing the SAP Cloud Identity Services tenant
