@@ -1,6 +1,8 @@
-# Accessing the SAP Cloud Identity Services tenant
+# Getting started
 
-## Users
+
+
+## Accessing the SAP Cloud Identity Services tenant
 
 For this session you will need access to a SAP Cloud Identity Service (SCI) tenant and a SAP SuccessFactors instance. 
 
