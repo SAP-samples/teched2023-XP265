@@ -1,6 +1,19 @@
 # Getting started
 
+   <img src="/exercises/ex0/images/SCI.png">
 
+   ---
+output: beamer_presentation
+---
+
+:::: {.columns}
+::: {.column width="60%"}
+![giraffe](giraffe.jpg)
+:::
+::: {.column width="40%"}
+["Funny giraffe looking at the side"](https://www.flickr.com/photos/8070463@N03/9594476129) by [Tambako the Jaguar](https://www.flickr.com/photos/8070463@N03) is licensed under [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/?ref=ccsearch&atype=rich)
+:::
+::::
 
 ## Accessing the SAP Cloud Identity Services tenant
 
