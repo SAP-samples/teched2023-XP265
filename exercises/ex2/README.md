@@ -1,4 +1,4 @@
-# Exercise 2 - Exercise 2 Description
+# Exercise 2 - Adding a target system in the Identity Provisioing service
 
 In this exercise, we will create...
 
