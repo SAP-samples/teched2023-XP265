@@ -5,6 +5,6 @@ In this exercise, we will learn about the various Operations available in the Id
 
 ## Exercise 3.1 Job types
 
-## Exercise 3.2 The Validation job
+## Exercise 3.2 The Validate job
 
 After completing these steps you will have created...
