@@ -24,6 +24,11 @@ A proxy system is a special connector used for "hybrid" scenarios. It exposes an
 
 <img src="/exercises/ex1/images/proxy.png" width=50% height=50%>
 
+More about it, on our product page under [System Types](https://help.sap.com/docs/identity-provisioning/identity-provisioning/system-types?locale=en-US).
+
+The Identity Provisioning service supports provisioning of users and groups between multiple supported cloud and on-premise systems, both SAP and non-SAP. The complete list can be found under [Supported Systems](https://help.sap.com/docs/identity-provisioning/identity-provisioning/supported-systems?locale=en-US)
+
+
 ## Exercise 1.1 Creating a source system in IPS 
 
 1. Navigate to the Identity Provisioning tab in the administrative console: 
