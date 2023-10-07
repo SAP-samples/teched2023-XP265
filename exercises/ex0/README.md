@@ -1,6 +1,6 @@
 # Getting started
 
-
+Before starting with the exercises, let us have a short reminder of what the SAP Cloud Identity Services are. 
 
 
    
@@ -27,13 +27,19 @@ The Identity Provisioning service automates identity lifecycle processes. It hel
 **What is Authorization Aanagement?** 
 Authorization management provides a central management of end-user authorizations for business applications based on SAP BTP Technology Platform. AMS is based on the existing Identity Directory of SAP Cloud Identity Services and enables customers to manage assignments of policies to users based on the Identity Directory SCIM API.
 
-**Identity Directory**
+**What is the Identity Directory?**
+Identity Directory is the central component for persisting users and groups inside the SAP Cloud Identity Services.
+The usage of the Identity Directory simplifies how customers are connecting to our SAP SaaS applications, by using it as a central point of truth for the SAP cloud environment. 
+Aditionally to the SAP Cloud Identity Services admin console UI, a SCIM 2.0 API allows you to programmatically access the identities inside the directory.
 
+For more information around these services, feel free to explore our [SAP Cloud Identity Services](www.help.sap.com/sci) documentation as well as our [API collecation](https://api.sap.com/package/SCPIdentityServices/rest) published on the SAP API Business Accelerator hub . All the services can be visually interacted with from the SAP Cloud Identity Services admin console.   
 
+## Hands-on scenario
+To better understand the provisioing functionality available in the SAP Cloud Identity Service, we will go together through the next exercises. The scenario is chosen in such a way that it resembles albeit at small scale the identity lifecycle in a landscape. We will start by connecting a user source to the Identity Provisioning. For this, we will use a SAP SuccessFactors Systems. Afterwards, we will configure a target system - the Identity Directory. We will go through the different job types and learn to change the default Identity Provisioning transformations. 
 
 ## Accessing the SAP Cloud Identity Services tenant
 
-For this session you will need access to a SAP Cloud Identity Service (SCI) tenant and a SAP SuccessFactors instance. 
+Now that we know what the SAP Cloud Services are and we understood what the scope of this hands-on session is, let us check the system access. For this session you will need access to a SAP Cloud Identity Service (SCI) tenant and a SAP SuccessFactors instance. 
 
 The SAP Cloud Identity Service tenant URL is specific for your seat in the workshop room.  
 
