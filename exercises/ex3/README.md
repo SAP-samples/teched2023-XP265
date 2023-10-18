@@ -19,8 +19,7 @@ Estimates the number of entities that will be created, updated, deleted or skipp
 **Validate Job**
 Verifies how entities (users and groups) would be mapped from source to target systems without modifying them.
 
-If you want to know more about this, have a look at our product page under Start and Stop Provisioning Jobs
-https://help.sap.com/docs/identity-provisioning/identity-provisioning/start-and-stop-provisioning-jobs?locale=en-US&version=Cloud
+If you want to know more about this, have a look at our product page under [Start and Stop Provisioning Jobs](https://help.sap.com/docs/identity-provisioning/identity-provisioning/start-and-stop-provisioning-jobs?locale=en-US&version=Cloud).
 
 
 ## Exercise 3.2 The Validate job
