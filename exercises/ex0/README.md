@@ -6,11 +6,11 @@ Before starting with the exercises, let us have a short reminder of what the SAP
    
 <img align="right" width="350" src="/exercises/ex0/images/SCI.png" />
 
-SAP Cloud Identity Services are the default to authenticate and provision users in cloud solutions from SAP:
-* Identity authentication 
-* Identity provisioning 
-* Authorization management
-* Integrated through the common Identity Directory
+SAP Cloud Identity Services (SCI) are the default to authenticate and provision users in cloud solutions from SAP:
+* Identity authentication (IAS)
+* Identity provisioning (IPS)
+* Authorization management (AMS)
+* Integrated through the common Identity Directory (IdDS)
 
 The number of **pre-integrated SAP solutions** that require **SAP Cloud Identity Services** will increase.
 There is no need to separately license the usage of our services, when used with SAP cloud solutions. 
@@ -35,7 +35,7 @@ Aditionally to the SAP Cloud Identity Services admin console UI, a SCIM 2.0 API 
 For more information around these services, feel free to explore our [SAP Cloud Identity Services](www.help.sap.com/sci) documentation as well as our [API collecation](https://api.sap.com/package/SCPIdentityServices/rest) published on the SAP API Business Accelerator hub . All the services can be visually interacted with from the SAP Cloud Identity Services admin console.   
 
 ## Hands-on scenario
-To better understand the provisioing functionality available in the SAP Cloud Identity Service, we will go together through the next exercises. The scenario is chosen in such a way that it resembles albeit at small scale the identity lifecycle in a landscape. We will start by connecting a user source to the Identity Provisioning. For this, we will use a SAP SuccessFactors Systems. Afterwards, we will configure a target system - the Identity Directory. We will go through the different job types and learn to change the default Identity Provisioning transformations. 
+To better understand the provisioing functionality available in the SAP Cloud Identity Service, we will go together through the next exercises. The scenario is chosen in such a way that it resembles albeit at small scale the identity lifecycle in a landscape. We will start by connecting a user source to the Identity Provisioning. For this, we will use a SAP SuccessFactors Systems. Afterwards, we will configure a target system - the Identity Directory. We will go through the different job types and learn how to change the default IPS transformations and how to validate their behavior.
 
 ## Accessing the SAP Cloud Identity Services tenant
 
@@ -92,7 +92,7 @@ Your user account for the SCI administrative console is:  TechEdIAS@bestrun.com
 | 40|  https://bestrun40.accounts.ondemand.com/admin/   |        TechEdIAS@bestrun.com |
 
 ## System access
-1. Search for the internet browser on your computer and navigate to your SAP Cloud Identity Services
+1. Search for the internet browser on your computer and navigate to your SCI administrative console.
    
 
    
