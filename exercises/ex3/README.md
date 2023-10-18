@@ -4,6 +4,8 @@ In this exercise, we will learn about the various Operations available in the Id
 
 
 ## Exercise 3.1 Job types
+You can start and stop a provisioning job from the Identity Provisioning user interface (UI) or from an API client by using the Identity Provisioning tenant admin API.
+
 
 ## Exercise 3.2 The Validate job
 
