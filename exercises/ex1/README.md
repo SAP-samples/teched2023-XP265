@@ -40,25 +40,33 @@ The Identity Provisioning service supports provisioning of users and groups betw
 <img src="/exercises/ex1/images/sources.png" width=50% height=50%>
  
 3. In order to add a new Source Systenm, please press on **+Add**
+
 <img src="/exercises/ex1/images/adds.png" width=50% height=50%>
    
 4. Search for the **SAP SuccessFactors** connector Type
+
 <img src="/exercises/ex1/images/choosesfsf.png" width=50% height=50%>
    
 6. Choose a meaningfull name and description, such as **SAP SFSF**  and **my source system** for your system. Do not save yet the system.
-   <img src="/exercises/ex1/images/adddesc.png" width=50% height=50%>
-   
-7. Navigate to the third tab called **Properties** press on the button **Add** and choose **Standard**
-     <img src="/exercises/ex1/images/adddesc.png" width=50% height=50%>
 
-8. For **Name** choose _sf.api.version_ and for **Value** write  _2_
-     <img src="/exercises/ex1/images/SFSF21.png" width=50% height=50%>
+<img src="/exercises/ex1/images/adddesc.png" width=50% height=50%>
+   
+8. Navigate to the third tab called **Properties** press on the button **Add** and choose **Standard**
+
+<img src="/exercises/ex1/images/adddesc.png" width=50% height=50%>
+
+10. For **Name** choose _sf.api.version_ and for **Value** write  _2_
+
+<img src="/exercises/ex1/images/SFSF21.png" width=50% height=50%>
      
-9.  When you are done press on **Save**.
-    <img src="/exercises/ex1/images/SFSF2.png" width=50% height=50%>
-10. Your saved system should look like this :
-        <img src="/exercises/ex1/images/SFSF3.png" width=50% height=50%>
-12. Let us continue adding the rest of the necesary properties: 
+12.  When you are done press on **Save**.
+
+ <img src="/exercises/ex1/images/SFSF2.png" width=50% height=50%>
+
+14. Your saved system should look like this :
+    
+<img src="/exercises/ex1/images/SFSF3.png" width=50% height=50%>
+15. Let us continue adding the rest of the necesary properties: 
 
 ## Example 1.1 Sub Exercise 1 Description
 
