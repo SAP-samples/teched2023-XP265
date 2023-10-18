@@ -20,7 +20,7 @@ A target system can be connected to a single or multiple source systems.
 
 **Proxy Systems** 
 
-A proxy system is a special connector used for "hybrid" scenarios. It exposes any Identity Provisioning supported backend system as a SCIM 2.0 service provider, which can be consumed by any SCIM 2.0Information published on non-SAP site compatible client application, without making a direct connection between them.
+A proxy system is a special connector used for "hybrid" scenarios. It exposes any Identity Provisioning supported backend system as a SCIM 2.0 service provider, which can be consumed by any SCIM 2.0 compatible client application, without making a direct connection between them.
 
 <img src="/exercises/ex1/images/proxy.png" width=50% height=50%>
 
