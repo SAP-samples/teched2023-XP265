@@ -59,18 +59,43 @@ The Identity Provisioning service supports provisioning of users and groups betw
 
 <img src="/exercises/ex1/images/SFSF21.png" width=50% height=50%>
      
-12.  When you are done press on **Save**.
+12.  When you are done press  **Save**.
 
  <img src="/exercises/ex1/images/SFSF2.png" width=50% height=50%>
 
 14. Your saved system should look like this :
     
 <img src="/exercises/ex1/images/SFSF3.png" width=50% height=50%>
-15. Let us continue adding the rest of the necesary properties: 
 
-## Example 1.1 Sub Exercise 1 Description
+15. After we have created the source system let us continue adding the rest of the necesary properties: 
+The following properties are of type **Standard**
 
-After completing these steps you will have created...
+| Name         |Value | 
+|--------------|:-----:|
+| Authentication|BasicAuthentication|        
+| ProxyType|Internet|   
+| sf.user.attributes|userId,username,status,email,lastName,firstName,lastModifiedDateTime,personKeyNav|   
+| sf.user.attributes.expand|personKeyNav,personKeyNav/userAccountNav|   
+| Type|HTTP|   
+|URL |https://apisalesdemo2.successfactors.eu/|   
+|User | **Ask your supervisor**|  
+
+The following property is of type **Credential**
+| Name         |Value | 
+|--------------|:-----:|
+|Password | **Ask your supervisor**|   
+
+16. Modify the following properties
+
+| Name         |Value | 
+|--------------|:-----:|
+|ips.trace.failed.entity.content |true|  
+|sf.user.filter |active eq "true"|  
+16. Check that your properties are simmilar to the bellow screenshot and press  **Save**.
+
+<img src="/exercises/ex1/images/pS3.png" width=50% height=50%>
+
+17. After completing these steps you will have created...
 
 1. Click here.
 <br>![](/exercises/ex1/images/01_01_0010.png)
