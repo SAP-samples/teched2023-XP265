@@ -8,7 +8,7 @@ In this exercise, we will create a target system for the source system created a
 
 <img src="/exercises/ex2/images/21.png" width=50% height=50%>
 
-2. In order to add a new Target Systenm, please press on **+Add**
+2. In order to add a new Target Systenm, please press on **Add**
 
 <img src="/exercises/ex2/images/22s.png" width=50% height=50%>
    
