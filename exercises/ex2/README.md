@@ -10,16 +10,18 @@ In this exercise, we will create a target system for the source system created a
 
 2. In order to add a new Target Systenm, please press on **Add**
 
-<img src="/exercises/ex2/images/22s.png" width=50% height=50%>
+<img src="/exercises/ex2/images/22.png" width=50% height=50%>
    
 3. Search for the **Local Identity Directory** connector Type
 
-<img src="/exercises/ex2/images/23s.png" width=50% height=50%>  
+<img src="/exercises/ex2/images/23.png" width=50% height=50%>  
 
-4. Choose a meaningfull name and description, such as **Local Identity Directory**  and **my local identity directory** for your system. Please be informed that the System Name cannot be changed once the system is saved. 
+4. Choose a meaningfull name and description, such as **Local Identity Directory**  and **my local identity directory** for your system. Please be informed that the System Name cannot be changed once the system is saved.
+5. **Save** your system. Now your target system is created and it should look like this : 
 
-<img src="/exercises/ex2/images/24" width=50% height=50%>
-5. Save your system. 
+<img src="/exercises/ex2/images/24.png" width=50% height=50%>
+
+
 
 
 
