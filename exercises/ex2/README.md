@@ -17,7 +17,9 @@ In this exercise, we will create a target system for the source system created a
 <img src="/exercises/ex2/images/23.png" width=50% height=50%>  
 
 4. Choose a meaningfull name and description, such as **Local Identity Directory**  and **my local identity directory** for your system. Please be informed that the System Name cannot be changed once the system is saved.
-5. **Save** your system. Now your target system is created and it should look like this : 
+5.Under **Source Systems** we need to choose the source system that was created in the previous exercise.
+
+6. **Save** your system. Now your target system is created and it should look like this : 
 
 <img src="/exercises/ex2/images/24.png" width=50% height=50%>
 
