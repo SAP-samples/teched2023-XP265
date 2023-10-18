@@ -17,30 +17,18 @@ In this exercise, we will create a target system for the source system created a
 <img src="/exercises/ex2/images/23.png" width=50% height=50%>  
 
 4. Choose a meaningfull name and description, such as **Local Identity Directory**  and **my local identity directory** for your system. Please be informed that the System Name cannot be changed once the system is saved.
+   
 5.Under **Source Systems** we need to choose the source system that was created in the previous exercise.
+
+<img src="/exercises/ex2/images/25.png" width=50% height=50%>  
 
 6. **Save** your system. Now your target system is created and it should look like this : 
 
 <img src="/exercises/ex2/images/24.png" width=50% height=50%>
 
 
-
-
-
-
-
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
-
-
-
-## Exercise 2.2 Sub Exercise 2 Description
-
-
-
 ## Summary
 
-You've now ...
+You've now defined the IdDs of your SCI tenant as a provisioning target system for your scenario. 
 
 Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
