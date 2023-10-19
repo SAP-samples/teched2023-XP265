@@ -33,11 +33,11 @@ The Identity Provisioning service supports provisioning of users and groups betw
 
 1. Navigate to the Identity Provisioning tab in the administrative console: 
 
-<img src="/exercises/ex1/images/11.png" width=50% height=50%>
+<img src="/exercises/ex1/images/12.png" width=50% height=50%>
 
 2. Choose **Source Systems** from the drop-down list
 
-<img src="/exercises/ex1/images/12.png" width=50% height=50%>
+<img src="/exercises/ex1/images/11.png" width=50% height=50%>
  
 3. In order to add a new Source Systenm, please press on **+Add**
 
@@ -53,6 +53,7 @@ The Identity Provisioning service supports provisioning of users and groups betw
    
 6. Navigate to the third tab called **Properties** press on the button **Add** and choose **Standard**
 
+<img src="/exercises/ex1/images/16.png" width=50% height=50%>
 
 7. For **Name** choose _sf.api.version_ and for **Value** write  _2_
 
