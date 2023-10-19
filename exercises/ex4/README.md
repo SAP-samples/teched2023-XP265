@@ -3,13 +3,15 @@
 In this exercise, we will learn about the various Operations available in the Identity Provisioing service and we will look in detail at the various provisioing job types available.  
 
 
-## Exercise 4.1 Job types
+## Exercise 4.1 Meet the graphical editor
 
-## Exercise 4.2 Change a property 
+## Exercise 4.2 Change a property in the source system
 
-## Exercise 4.2 Run the Validate  job
+## Exercise 4.2 Change a mapping in the target system
 
-## Exercise 4.2 Run the Read job
+## Exercise 4.2 Run the validation job
+
+## Exercise 4.2 Run the Read Job and create the users
 
 After completing these steps you will have created...
 
