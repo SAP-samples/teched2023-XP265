@@ -33,7 +33,25 @@ You can create a CSV file using a text editor, for example Notepad. Make sure th
 
 For this exercise, we will use only a CSV file for users that was created for you. 
 
+1.Download the prepared CSV file for users attached to this exercise. 
 
+2. Navigate to the SCI administrative console that corresponds to your seat. From the third tab **Identity Provisioning** please choose **Source Systems**
+
+
+3. Choose the Source Sytsem created at Exercise 1 **SAP SFSF**
+
+
+4. Once in the right system, navigate to the fifth Tab called **Jobs**
+
+   
+5. Choose the last Job called **Validate** and press on **Run Now**. Choosing Run Now however does not trigger the job literally. It just opens a dialog box where you must import CSV (comma-separated values) files .
+
+   
+6. In the Import Entities dialog box, browse for and select the CSV file that you downloaded earlier for testing users.
+
+7. Press on **Validate**
+   
+8. Your browser displayed a pop-up informing you that the results of the validate job are downloaded. Navigate to this folder locally on your computer and check the results. 
 
 
 ## Summary 
