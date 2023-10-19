@@ -37,4 +37,4 @@ For this exercise, we will use only a CSV file for users that was created for yo
 
 
 ## Summary 
-After completing these steps you will have created...
+After completing these steps you will have learned how to master the Validate Job. 
