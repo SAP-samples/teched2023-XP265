@@ -33,7 +33,7 @@ You can create a CSV file using a text editor, for example Notepad. Make sure th
 
 For this exercise, we will use only a CSV file for users that was created for you. 
 
-1.Download the prepared CSV file for users attached to this exercise. 
+1.Download the prepared CSV file for users attached to this exercise.  
 
 2. Navigate to the SCI administrative console that corresponds to your seat. From the third tab **Identity Provisioning** please choose **Source Systems**
 
