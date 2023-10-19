@@ -33,39 +33,38 @@ The Identity Provisioning service supports provisioning of users and groups betw
 
 1. Navigate to the Identity Provisioning tab in the administrative console: 
 
-<img src="/exercises/ex1/images/2IPS.png" width=50% height=50%>
+<img src="/exercises/ex1/images/11.png" width=50% height=50%>
 
 2. Choose **Source Systems** from the drop-down list
 
-<img src="/exercises/ex1/images/sources.png" width=50% height=50%>
+<img src="/exercises/ex1/images/12.png" width=50% height=50%>
  
 3. In order to add a new Source Systenm, please press on **+Add**
 
-<img src="/exercises/ex1/images/adds.png" width=50% height=50%>
+<img src="/exercises/ex1/images/13.png" width=50% height=50%>
    
 4. Search for the **SAP SuccessFactors** connector Type
 
-<img src="/exercises/ex1/images/choosesfsf.png" width=50% height=50%>
+<img src="/exercises/ex1/images/14.png" width=50% height=50%>
    
 5. Choose a meaningfull name and description, such as **SAP SFSF**  and **my source system** for your system. Do not save yet the system.
 
-<img src="/exercises/ex1/images/adddesc.png" width=50% height=50%>
+<img src="/exercises/ex1/images/15.png" width=50% height=50%>
    
 6. Navigate to the third tab called **Properties** press on the button **Add** and choose **Standard**
 
-<img src="/exercises/ex1/images/adddesc.png" width=50% height=50%>
 
 7. For **Name** choose _sf.api.version_ and for **Value** write  _2_
 
-<img src="/exercises/ex1/images/SFSF21.png" width=50% height=50%>
+<img src="/exercises/ex1/images/17.png" width=50% height=50%>
      
 8.  When you are done press  **Save**.
 
- <img src="/exercises/ex1/images/SFSF2.png" width=50% height=50%>
+ <img src="/exercises/ex1/images/18.png" width=50% height=50%>
 
 9. Your saved system should look like this :
     
-<img src="/exercises/ex1/images/SFSF3.png" width=50% height=50%>
+<img src="/exercises/ex1/images/19.png" width=50% height=50%>
 
 10. After we have created the source system let us continue adding the rest of the necesary properties: 
 The following properties are of type **Standard**
@@ -93,7 +92,7 @@ The following property is of type **Credential**
 |sf.user.filter |active eq "true"|  
 11. Check that your properties are simmilar to the bellow screenshot and press  **Save**.
 
-<img src="/exercises/ex1/images/pS3.png" width=50% height=50%>
+<img src="/exercises/ex1/images/111.png" width=50% height=50%>
 
 
 ## Summary
