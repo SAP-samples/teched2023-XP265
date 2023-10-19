@@ -63,6 +63,23 @@ For this exercise, we will use only a CSV file for users that was created for yo
 
 <img src="/exercises/ex3/images/39.png" width=50% height=50%>
 
+## Exercise 3.3 The Run job
+
+1. From the Jobs Section of the target system choose the **Read Job**.
+   
+<img src="/exercises/ex3/images/331.png" width=50% height=50%>
+
+2. Navigate to the **Provisionings Logs** tile from the **Identity Provisioning** tab.
+
+<img src="/exercises/ex3/images/332.png" width=50% height=50%>
+   
+3. The Job finished with an error. Press on the result to see the details.
+
+<img src="/exercises/ex3/images/333.png" width=50% height=50%> 
+
+4. We notice that only a subset of the SAP SFSF users and groups were provisioned. By expanding the error log, we understand why:  _Unknown value 'SMB' for attribute 'urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:department_
+The attribute **department** is a reference attribute that can have fixed values in IdDs.
+
 
 
 ## Summary 
