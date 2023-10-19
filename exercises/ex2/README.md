@@ -4,7 +4,7 @@ In this exercise, we will create a target system for the source system created a
 
 ## Exercise 2.1 Sub Exercise 1 Description
 
-1. Navigate to the SCI administrative console that corresponds to your seat. From the third tab **Identity Provisioning** please **Target Systems**
+1. Navigate to the SCI administrative console that corresponds to your seat. From the third tab **Identity Provisioning** please choose **Target Systems**
 
 <img src="/exercises/ex2/images/21.png" width=50% height=50%>
 
