@@ -47,27 +47,27 @@ The Identity Provisioning service supports provisioning of users and groups betw
 
 <img src="/exercises/ex1/images/choosesfsf.png" width=50% height=50%>
    
-6. Choose a meaningfull name and description, such as **SAP SFSF**  and **my source system** for your system. Do not save yet the system.
+5. Choose a meaningfull name and description, such as **SAP SFSF**  and **my source system** for your system. Do not save yet the system.
 
 <img src="/exercises/ex1/images/adddesc.png" width=50% height=50%>
    
-8. Navigate to the third tab called **Properties** press on the button **Add** and choose **Standard**
+6. Navigate to the third tab called **Properties** press on the button **Add** and choose **Standard**
 
 <img src="/exercises/ex1/images/adddesc.png" width=50% height=50%>
 
-10. For **Name** choose _sf.api.version_ and for **Value** write  _2_
+7. For **Name** choose _sf.api.version_ and for **Value** write  _2_
 
 <img src="/exercises/ex1/images/SFSF21.png" width=50% height=50%>
      
-12.  When you are done press  **Save**.
+8.  When you are done press  **Save**.
 
  <img src="/exercises/ex1/images/SFSF2.png" width=50% height=50%>
 
-14. Your saved system should look like this :
+9. Your saved system should look like this :
     
 <img src="/exercises/ex1/images/SFSF3.png" width=50% height=50%>
 
-15. After we have created the source system let us continue adding the rest of the necesary properties: 
+10. After we have created the source system let us continue adding the rest of the necesary properties: 
 The following properties are of type **Standard**
 
 | Name         |Value | 
@@ -91,7 +91,7 @@ The following property is of type **Credential**
 |--------------|:-----:|
 |ips.trace.failed.entity.content |true|  
 |sf.user.filter |active eq "true"|  
-16. Check that your properties are simmilar to the bellow screenshot and press  **Save**.
+11. Check that your properties are simmilar to the bellow screenshot and press  **Save**.
 
 <img src="/exercises/ex1/images/pS3.png" width=50% height=50%>
 
