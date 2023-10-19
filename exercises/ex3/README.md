@@ -33,7 +33,7 @@ You can create a CSV file using a text editor, for example Notepad. Make sure th
 
 For this exercise, we will use only a CSV file for users that was created for you. 
 
-1. Download the prepared CSV file for users attached to this exercise.  
+1. Download the prepared CSV file for users attached to this exercise.  The file is called **Users_SAPSFSF.csv**.
 
 2. Navigate to the SCI administrative console that corresponds to your seat. From the third tab **Identity Provisioning** please choose **Source Systems**
 
@@ -61,7 +61,7 @@ For this exercise, we will use only a CSV file for users that was created for yo
    
 9. Your browser displayed a pop-up informing you that the results of the validate job are downloaded. Navigate to this folder locally on your computer and check the results.
 
-<img src="/exercises/ex3/images/38.png" width=50% height=50%>
+<img src="/exercises/ex3/images/39.png" width=50% height=50%>
 
 
 
