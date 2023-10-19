@@ -80,6 +80,7 @@ For this exercise, we will use only a CSV file for users that was created for yo
 4. We notice that only a subset of the SAP SFSF users and groups were provisioned. By expanding the error log, we understand why:  _Unknown value 'SMB' for attribute 'urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:department_
 The attribute **department** is a reference attribute that can have fixed values in IdDs.
 
+<img src="/exercises/ex3/images/334.png" width=50% height=50%> 
 
 
 ## Summary 
