@@ -66,6 +66,19 @@ In the **Local Identity Directory** target system that we created in Exercise 2,
 
 <img src="/exercises/ex4/images/413.png" width=50% height=50%>
 
+14. Let us check a user record. From the SCI admin console navigate to the second tab **User Management**.
+
+<img src="/exercises/ex4/images/414.png" width=50% height=50%>
+
+15. We can search for the user "HR" because we remember that this was one of the users that had as department value _SMB_ in SAP SFSF - and this caused an error previously. Choose this user and let us scroll to the Department attribute.
+
+<img src="/exercises/ex4/images/415.png" width=50% height=50%>
+
+16. We can observe that the change in the mapping transfomration worked.
+
+<img src="/exercises/ex4/images/416.png" width=50% height=50%>
+
+
 ## Exercise 4.2 Change a property in the source system
 
 ## Exercise 4.2 Change a mapping in the target system
