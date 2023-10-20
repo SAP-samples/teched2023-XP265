@@ -7,6 +7,7 @@ In this exercise, we will learn about the various Operations available in the Id
 You can start and stop a provisioning job from the Identity Provisioning user interface (UI) or from an API client by using the Identity Provisioning tenant admin API.
 
 The Identity Provisioning service provides the following types of provisioning jobs:
+
 **Read Job**
 Reads all entities from the source system and provisions only new or updated entities to the target system. If the job is run in delta read mode, it reads and provisions only new or updated entities in the source system.
 
@@ -82,6 +83,11 @@ The attribute **department** is a reference attribute that can have fixed values
 
 <img src="/exercises/ex3/images/334.png" width=50% height=50%> 
 
+5. For seeing all the Error Logs, you can press on **Download All Error Logs for This Job**
+
+<img src="/exercises/ex3/images/335.png" width=50% height=50%> 
+
+Once downloaded you can search for the user with the Displayname _HR Coordinator_ and notice that the issue was the department value as well. The next exercises will explain how to correct such errors.
 
 ## Summary 
-After completing these steps you will have learned how to master the Validate Job. 
+After completing these steps you learned about the various job types available in IPS and already tested two of them. Let us try to change the default transformation and fix the error from the logs in the next exercise. 
