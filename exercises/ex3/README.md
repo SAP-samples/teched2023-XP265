@@ -91,3 +91,4 @@ Once downloaded you can search for the user with the Displayname _HR Coordinator
 
 ## Summary 
 After completing these steps you learned about the various job types available in IPS and already tested two of them. Let us try to change the default transformation and fix the error from the logs in the next exercise. 
+Continue to - [Exercise 4 - Excercise 4 ](../ex4/README.md)
