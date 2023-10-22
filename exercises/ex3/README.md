@@ -1,4 +1,4 @@
-# Exercise 3 - Identity Provisioning Operations - Job Types
+# Exercise 3 - Identity Provisioning Job Types
 
 In this exercise, we will learn about the various Operations available in the Identity Provisioing service and we will look in detail at the various provisioing job types available.  
 
