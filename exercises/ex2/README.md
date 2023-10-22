@@ -1,4 +1,4 @@
-# Exercise 2 - Adding a target system in the Identity Provisioing service
+# Exercise 2 - Adding a target system
 
 In this exercise, we will create a target system for the source system created at the previous Exrecise. 
 
