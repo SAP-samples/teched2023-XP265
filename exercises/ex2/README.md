@@ -31,4 +31,4 @@ In this exercise, we will create a target system for the source system created a
 
 You've now defined the IdDs of your SCI tenant as a provisioning target system for your scenario. 
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 3 - Identity Provisioning Job Types](../ex3/README.md)
