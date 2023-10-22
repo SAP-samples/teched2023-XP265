@@ -1,4 +1,4 @@
-# Exercise 1 - Adding a source system in the Identity Provisioning service
+# Exercise 1 - System types in the Identity Provisioning service 
 
 In this exercise, we will learn about the different types of systems in Identity Provisioning and we will configure a source system. 
 
@@ -85,13 +85,13 @@ The following property is of type **Credential**
 |--------------|:-----:|
 |Password | **Ask your supervisor**|   
 
-16. Modify the following properties
+11. Modify the following properties
 
 | Name         |Value | 
 |--------------|:-----:|
 |ips.trace.failed.entity.content |true|  
 |sf.user.filter |active eq "true"|  
-11. Check that your properties are simmilar to the bellow screenshot and press  **Save**.
+12. Check that your properties are simmilar to the bellow screenshot and press  **Save**.
 
 <img src="/exercises/ex1/images/111.png" width=50% height=50%>
 
@@ -100,5 +100,5 @@ The following property is of type **Credential**
 
 You've now created a source system for your SAP SuccessFactors instance. 
 
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+Continue to - [Exercise 2 - Adding a target system](../ex2/README.md)
 
