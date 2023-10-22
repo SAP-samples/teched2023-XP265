@@ -98,7 +98,7 @@ isValidEmail($.emails[0].value) && (($.emails[0].value =~ /.*@successfactors.com
 
 This condition ensures that only users with a valid e-mail address are read from the source system. Furthermore, the job will only filter for users with email addresses belonging to specific domains. 
 
-## Exercise 4.2 Meet the Simulate job
+## Exercise 4.3 Meet the Simulate job
 
 1. Navigate now to **Jobs**, the last tab of this source system.
    
@@ -122,7 +122,7 @@ This condition ensures that only users with a valid e-mail address are read from
 
 In the next exercise we will learn how to use properties.
 
-## Exercise 4.2 Working with Properties
+## Exercise 4.4 Working with Properties
 
 We have already used properties to configure the connection between your source and target systems in the first exercises. However, this is not the only benefit we have from them. Properties help you to customize the way your identities are read from a source system or provisioned to the target one. They can also filter which entities and attributes to be read or skipped during the provisioning job. 
 
