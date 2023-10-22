@@ -1,6 +1,6 @@
-# Exercise 4 - Identity Provisioning Operations - Manage Transformations
+# Exercise 4 - Identity Provisioning Operations
 
-In this exercise, we will learn about the various Operations available in the Identity Provisioing service.
+In this exercise, we will learn about the various Operations available in the Identity Provisioing service. We will start by understanding what are the transformations. 
 
 **Transformations**
 For every system supported by the Identity Provisioning service, there is an initial (default) transformation logic that converts the system specific JSON representation of the entities from/to one common JSON. This default transformation is visible on the Transformations tab when you create a new system, after saving it. 
