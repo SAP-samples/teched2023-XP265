@@ -2,7 +2,9 @@
 
 In this exercise, we will create a target system for the source system created at the previous Exrecise. 
 
-## Exercise 2.1 Sub Exercise 1 Description
+## Exercise 2.1 Defining the Identity Directory as a target systen
+
+As we have learned in the [Getting started](../ex0/README.md) chapter, each SAP SCI tenant includes an Identity Directory  (IdDS) that stores user, groups and group assignments. In this exercise we will configure IdDS as a provisioning target.  
 
 1. Navigate to the SCI administrative console that corresponds to your seat. From the third tab **Identity Provisioning** please choose **Target Systems**
 
