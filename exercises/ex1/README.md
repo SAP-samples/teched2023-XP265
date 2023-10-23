@@ -83,11 +83,14 @@ The following property is of type **Credential**
 |--------------|:-----:|
 |Password | **Ask your supervisor**|   
 
-11. Modify the following properties
+11. Modify the following property
 
 | Name         |Value | 
 |--------------|:-----:|
 |ips.trace.failed.entity.content |true|  
+
+If a provisioning job repeatedly fails and you need problem investigation, you can enable logging and tracing for the personal and sensitive data of your provisioned entities.
+To do this, we set this property to true. If the property is not set, in the logs you see: content = <hidden content>.
 
 12. Check that your properties are simmilar to the bellow screenshot and press  **Save**.
 
