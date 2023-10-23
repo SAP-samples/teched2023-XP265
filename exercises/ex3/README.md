@@ -38,54 +38,54 @@ For this exercise, we will use only a CSV file for users that was created for yo
 
 2. Navigate to the SCI administrative console that corresponds to your seat. From the third tab **Identity Provisioning** please choose **Source Systems**
 
-<img src="/exercises/ex3/images/32.png" width=50% height=50%>
+<img src="/exercises/ex3/images/32.png">
 
 3. Choose the Source Sytsem created at Exercise 1 **SAP SFSF**
 
 
 4. Once in the right system, navigate to the fifth Tab called **Jobs**
 
-<img src="/exercises/ex3/images/34.png" width=50% height=50%>
+<img src="/exercises/ex3/images/34.png">
 
    
 5. Choose the last Job called **Validate** and press on **Run Now**. Choosing Run Now however does not trigger the job literally. It just opens a dialog box where you must import CSV (comma-separated values) files .
 
-<img src="/exercises/ex3/images/35.png" width=50% height=50%>
+<img src="/exercises/ex3/images/35.png">
 
    
 6. In the Import Entities dialog box, browse for and select the CSV file that you downloaded earlier for testing users.
 
 7. Press on **Validate**
 
-<img src="/exercises/ex3/images/37.png" width=50% height=50%>
+<img src="/exercises/ex3/images/37.png">
 
    
 9. Your browser displayed a pop-up informing you that the results of the validate job are downloaded. Navigate to this folder locally on your computer and check the results.
 
-<img src="/exercises/ex3/images/39.png" width=50% height=50%>
+<img src="/exercises/ex3/images/39.png">
 
 ## Exercise 3.3 The Run job
 
 1. From the Jobs Section of the target system choose the **Read Job**.
    
-<img src="/exercises/ex3/images/331.png" width=50% height=50%>
+<img src="/exercises/ex3/images/331.png">
 
 2. Navigate to the **Provisionings Logs** tile from the **Identity Provisioning** tab.
 
-<img src="/exercises/ex3/images/332.png" width=50% height=50%>
+<img src="/exercises/ex3/images/332.png">
    
 3. The Job finished with an error. Press on the result to see the details.
 
-<img src="/exercises/ex3/images/333.png" width=50% height=50%> 
+<img src="/exercises/ex3/images/333.png"> 
 
 4. We notice that only a subset of the SAP SFSF users and groups were provisioned. By expanding the error log, we understand why:  _Unknown value 'SMB' for attribute 'urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:department_
 The attribute **department** is a reference attribute that can have fixed values in IdDs.
 
-<img src="/exercises/ex3/images/334.png" width=50% height=50%> 
+<img src="/exercises/ex3/images/334.png" > 
 
 5. For seeing all the Error Logs, you can press on **Download All Error Logs for This Job**
 
-<img src="/exercises/ex3/images/335.png" width=50% height=50%> 
+<img src="/exercises/ex3/images/335.png" > 
 
 Once downloaded you can search for the user with the Displayname _HR Coordinator_ and notice that the issue was the department value as well. The next exercises will explain how to correct such errors.
 
