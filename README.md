@@ -17,22 +17,12 @@ None
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
-
 - [Getting Started](exercises/ex0/)
 - [Exercise 1 - System types in the Identity Provisioning service ](exercises/ex1/)
 - [Exercise 2 - Adding a target system](exercises/ex2/)
 - [Exercise 3 - Identity Provisioning Job Types](exercises/ex3/)
 - [Exercise 4 - Identity Provisioning Operations](exercises/ex4/)
 
-  
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
