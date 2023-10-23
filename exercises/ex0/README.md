@@ -41,12 +41,12 @@ To better understand the provisioing functionality available in the SAP Cloud Id
 
 Now that we know what the SAP Cloud Services are and we understood what the scope of this hands-on session is, let us check the system access. For this session you will need access to a SAP Cloud Identity Service (SCI) tenant and a SAP SuccessFactors instance. 
 
+1. Search for the internet browser on your computer and navigate to your SCI administrative console.
+
 The SAP Cloud Identity Service tenant URL is specific for your seat in the workshop room.  
 
 Seat number in workshop: XY 
 URL: https://bestrunXY.accounts.ondemand.com/admin/ 
-
-
 
 | Seat         | SCI tenant | 
 |--------------|:-----:|
@@ -91,11 +91,7 @@ URL: https://bestrunXY.accounts.ondemand.com/admin/
 | 39|  https://bestrun39.accounts.ondemand.com/admin/   |      
 | 40|  https://bestrun40.accounts.ondemand.com/admin/   |      
 
-## System access
-1. Search for the internet browser on your computer and navigate to your SCI administrative console.
-   
 
-   
 2. Type the username and password and press **Log On**
 
    <img src="/exercises/ex0/images/IAS1.png" width=50% height=50%>
@@ -103,6 +99,10 @@ URL: https://bestrunXY.accounts.ondemand.com/admin/
 3. You have access to the SAP Cloud Identity Services administrative console.
    
    <img src="/exercises/ex0/images/IAS.png" width=50% height=50%>
+   
+
+   
+
 
 
 ## Summary
