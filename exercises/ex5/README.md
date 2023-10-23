@@ -1,3 +1,5 @@
+# Exercise 5 - Advanced Identity Provisioning Operations
+
 ## Exercise 5.1 Editing Conditions 
 
 1. Let's continue changing the default transformation by editing a condition in the source system. From your SCI admin console navigate to the third tab **Identity Provisioining** and choose **Source Systems**.
@@ -12,11 +14,10 @@
 
 6. In the pop-up copy the bellow conditions and press **Save**.
 
-<img src="/exercises/ex5/images/521.png">
-
 ```
 isValidEmail($.emails[0].value) && (($.emails[0].value =~ /.*@successfactors.com/ ) || ($.emails[0].value =~ /.*@sap-test.de/ ))
 ```
+<img src="/exercises/ex5/images/521.png">
 
 This condition ensures that only users with a valid e-mail address are read from the source system. Furthermore, the job will only filter for users with email addresses belonging to specific domains. 
 
