@@ -73,9 +73,7 @@ The following properties are of type **Standard**
 | Name         |Value | 
 |--------------|:-----:|
 | Authentication|BasicAuthentication|        
-| ProxyType|Internet|   
-| sf.user.attributes|userId,username,status,email,lastName,firstName,lastModifiedDateTime,personKeyNav|   
-| sf.user.attributes.expand|personKeyNav,personKeyNav/userAccountNav|   
+| ProxyType|Internet|     
 | Type|HTTP|   
 |URL |https://apisalesdemo2.successfactors.eu/|   
 |User | **Ask your supervisor**|  
