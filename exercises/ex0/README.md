@@ -94,11 +94,11 @@ URL: https://bestrunXY.accounts.ondemand.com/admin/
 
 2. Type the username and password and press **Log On**
 
-   <img src="/exercises/ex0/images/IAS1.png" width=50% height=50%>
+   <img src="/exercises/ex0/images/01.png" width=50% height=50%>
 
 3. You have access to the SAP Cloud Identity Services administrative console.
    
-   <img src="/exercises/ex0/images/IAS.png" width=50% height=50%>
+   <img src="/exercises/ex0/images/02.png" width=50% height=50%>
    
 
    
