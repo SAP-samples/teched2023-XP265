@@ -101,5 +101,5 @@ To do this, we set this property to true. If the property is not set, in the log
 
 You've now created a source system for your SAP SuccessFactors instance. 
 
-Continue to - [Exercise 2 - Adding a target system](../ex2/README.md)
+Continue to [Exercise 2 - Adding a target system](../ex2/README.md) to create a target system. 
 
