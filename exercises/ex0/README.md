@@ -4,7 +4,7 @@ Before starting with the exercises, let us have a short reminder of what the SAP
 
 
    
-<img align="right" width="650" src="/exercises/ex0/images/SCI2.png" />
+<img align="right" width="650" src="/exercises/ex0/images/SCI.png" />
 
 SAP Cloud Identity Services (SCI) are the default to authenticate and provision users in cloud solutions from SAP:
 * Identity authentication (IAS)
