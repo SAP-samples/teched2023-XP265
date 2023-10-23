@@ -64,7 +64,7 @@ For this exercise, we will use only a CSV file for users that was created for yo
 
 <img src="/exercises/ex3/images/39.png">
 
-## Exercise 3.3 The Run job
+## Exercise 3.3 The Read job
 
 1. From the Jobs Section of the target system choose the **Read Job**.
    
