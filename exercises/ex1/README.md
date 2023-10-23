@@ -88,7 +88,7 @@ The following property is of type **Credential**
 | Name         |Value | 
 |--------------|:-----:|
 |ips.trace.failed.entity.content |true|  
-|sf.user.filter |active eq "true"|  
+
 12. Check that your properties are simmilar to the bellow screenshot and press  **Save**.
 
 <img src="/exercises/ex1/images/111.png" width=50% height=50%>
