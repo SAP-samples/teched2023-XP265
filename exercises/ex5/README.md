@@ -8,9 +8,11 @@
 
 4. Choose Edit Entity -> user -> Edit condition.
    
-<img src="/exercises/ex5/images/511.png" width=50% height=50%>
+<img src="/exercises/ex5/images/511.png">
 
 6. In the pop-up copy the bellow conditions and press **Save**.
+
+<img src="/exercises/ex5/images/521.png">
 
 ```
 isValidEmail($.emails[0].value) && (($.emails[0].value =~ /.*@successfactors.com/ ) || ($.emails[0].value =~ /.*@sap-test.de/ ))
@@ -23,22 +25,20 @@ This condition ensures that only users with a valid e-mail address are read from
 1. Navigate now to **Jobs**, the last tab of this source system.
    
 2. Choose **Simulate Job** and press on **Run Now**
-   
-<img src="/exercises/ex5/images/521.png" width=50% height=50%>
+
+<img src="/exercises/ex5/images/522.png">
    
 3. Navigate to the **Provisioning Logs** (from the Identity Provisioning drop-down menu) and notice the job result.
    
-<img src="/exercises/ex5/images/522.png" width=50% height=50%>
-
 4. We notice that many user would be deleted.
 
-<img src="/exercises/ex5/images/523.png" width=50% height=50%>
+<img src="/exercises/ex5/images/523.png">
 
 6. Let us try to see why. Press on **Download All Skipped Entity Logs for This job**
 
 7. In the downloaded file we will see the following message :
    
-<img src="/exercises/ex5/images/524.png" width=50% height=50%>
+<img src="/exercises/ex5/images/524.png">
 
 In the next exercise we will learn how to use properties.
 
@@ -55,7 +55,7 @@ All the available properties to use in the Identity Provisioning service are to 
 |ips.trace.skipped.entity |true|  
 |ips.trace.skipped.entity.content |true|  
 
-<img src="/exercises/ex5/images/531.png" width=50% height=50%>
+<img src="/exercises/ex5/images/531.png">
 
 Press on **Save**. 
 
@@ -80,9 +80,9 @@ Note that these changes are solely for exercise purpose and in a real landscape 
    
 4. Navigate to the **Provisioning Logs** (from the Identity Provisioning drop-down menu) and notice the job result.
    
-<img src="/exercises/ex5/images/532.png" width=50% height=50%>
+<img src="/exercises/ex5/images/532.png">
 
-Only two users would be deleted and the job is errored out. Additionally to the previous job execution we can download boad job logs for more details. 
+As expected no users would be deleted and the job is errored out - due to the _ips.delete.threshold.users_ property. Additionally to the previous job execution we can download both job logs for more details. 
 
 This concludes our session today. If you want to exercise more with the SAP Cloud Identity Services but you do not have an environment already, check the trial account offerings as described in [Getting a Trial Tenant](https://help.sap.com/docs/identity-provisioning/identity-provisioning/getting-trial-tenant?locale=en-US&version=Cloud&q=trial%20account).
 
