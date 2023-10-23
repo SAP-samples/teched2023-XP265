@@ -10,7 +10,7 @@ A source system is the connector used for reading entities (users, groups, roles
 
 You can connect one source system to one or multiple target systems.
 
-<img src="/exercises/ex1/images/sourcesys.png" width=50% height=50%>
+<img src="/exercises/ex1/images/sourcesys.png">
 
 **Target Systems** 
 
@@ -22,7 +22,7 @@ A target system can be connected to a single or multiple source systems.
 
 A proxy system is a special connector used for "hybrid" scenarios. It exposes any Identity Provisioning supported backend system as a SCIM 2.0 service provider, which can be consumed by any SCIM 2.0 compatible client application, without making a direct connection between them.
 
-<img src="/exercises/ex1/images/proxy.png" width=50% height=50%>
+<img src="/exercises/ex1/images/proxy.png">
 
 More about it, on our product page under [System Types](https://help.sap.com/docs/identity-provisioning/identity-provisioning/system-types?locale=en-US).
 
@@ -33,39 +33,39 @@ The Identity Provisioning service supports provisioning of users and groups betw
 
 1. Navigate to the Identity Provisioning tab in the administrative console: 
 
-<img src="/exercises/ex1/images/12.png" width=50% height=50%>
+<img src="/exercises/ex1/images/12.png">
 
 2. Choose **Source Systems** from the drop-down list
 
-<img src="/exercises/ex1/images/11.png" width=50% height=50%>
+<img src="/exercises/ex1/images/11.png">
  
 3. In order to add a new Source Systenm, please press on **+Add**
 
-<img src="/exercises/ex1/images/13.png" width=50% height=50%>
+<img src="/exercises/ex1/images/13.png">
    
 4. Search for the **SAP SuccessFactors** connector Type
 
-<img src="/exercises/ex1/images/14.png" width=50% height=50%>
+<img src="/exercises/ex1/images/14.png">
    
 5. Choose a meaningfull name and description, such as **SAP SFSF**  and **my source system** for your system. Do not save yet the system.
 
-<img src="/exercises/ex1/images/15.png" width=50% height=50%>
+<img src="/exercises/ex1/images/15.png">
    
 6. Navigate to the third tab called **Properties** press on the button **Add** and choose **Standard**
 
-<img src="/exercises/ex1/images/16.png" width=50% height=50%>
+<img src="/exercises/ex1/images/16.png">
 
 7. For **Name** choose _sf.api.version_ and for **Value** write  _2_
 
-<img src="/exercises/ex1/images/17.png" width=50% height=50%>
+<img src="/exercises/ex1/images/17.png">
      
 8.  When you are done press  **Save**.
 
- <img src="/exercises/ex1/images/18.png" width=50% height=50%>
+ <img src="/exercises/ex1/images/18.png">
 
 9. Your saved system should look like this :
     
-<img src="/exercises/ex1/images/19.png" width=50% height=50%>
+<img src="/exercises/ex1/images/19.png">
 
 10. After we have created the source system let us continue adding the rest of the necesary properties: 
 The following properties are of type **Standard**
@@ -94,7 +94,7 @@ To do this, we set this property to true. If the property is not set, in the log
 
 12. Check that your properties are simmilar to the bellow screenshot and press  **Save**.
 
-<img src="/exercises/ex1/images/111.png" width=50% height=50%>
+<img src="/exercises/ex1/images/111.png">
 
 
 ## Summary
