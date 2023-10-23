@@ -30,7 +30,7 @@ None
     - [Exercise 3.3 The Run job](exercises/ex3#Exercise-3.3-The-Run-job)
 - [Exercise 4 - Identity Provisioning Operations](exercises/ex4/)
     - [Exercise 4.1 Meet the graphical editor](exercises/ex4#Exercise-4.1-Meet-the-graphical-editor)
-- [Exercise 5 - Advanced Identity Provisioning Operations](exercises/ex4/)
+- [Exercise 5 - Advanced Identity Provisioning Operations](exercises/ex5/)
     - [Exercise 5.1 Editing Conditions](exercises/ex5#Exercise-5.1-Editing-Conditions)
     - [Exercise 5.2 Meet the Simulate job](exercises/ex5#Exercise-5.2-Meet-the-Simulate-job)
     - [Exercise 5.3 Working with Properties](exercises/ex5#Exercise-5.3-Working-with-Properties)
