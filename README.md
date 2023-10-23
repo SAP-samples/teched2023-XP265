@@ -18,11 +18,21 @@ None
 ## Exercises
 
 - [Getting Started](exercises/ex0/)
+    - [Hands-on scenario](exercises/ex0#Hands-on-scenario)
+    - [Accessing the SAP Cloud Identity Services tenant](exercises/ex0#Accessing-the-SAP-Cloud-Identity-Services-tenan)
 - [Exercise 1 - System types in the Identity Provisioning service ](exercises/ex1/)
+    - [Exercise 1.1 Creating a source system in IPS](exercises/ex1#Exercise-1.1-Creating-a-source-system-in-IPS)
 - [Exercise 2 - Adding a target system](exercises/ex2/)
+    - [Exercise 2.1 Defining the Identity Directory as a target systen](exercises/ex2#Exercise-2.1-Defining-the-Identity-Directory-as-a-target-systen)
 - [Exercise 3 - Identity Provisioning Job Types](exercises/ex3/)
+    - [Exercise 3.1 Job types](exercises/ex3#Exercise-3.1-Job-types)
+    - [Exercise 3.2 The Validate job](exercises/ex3#Exercise-3.2-The-Validate-job)
+    - [Exercise 3.3 The Run job](exercises/ex3#Exercise-3.3-The-Run-job)
 - [Exercise 4 - Identity Provisioning Operations](exercises/ex4/)
-
+    - [Exercise 4.1 Meet the graphical editor](exercises/ex4#Exercise-4.1-Meet-the-graphical-editor)
+    - [Exercise 4.2 Editing Conditions](exercises/ex4#Exercise-4.2-Editing-Conditions)
+    - [Exercise 4.3 Meet the Simulate job](exercises/ex4#Exercise-4.3-Meet-the-Simulate-job)
+    - [Exercise 4.4 Working with Properties](exercises/ex4#Exercise-4.4-Working-with-Properties)
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
