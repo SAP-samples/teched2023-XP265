@@ -26,12 +26,12 @@ A proxy system is a special connector used for "hybrid" scenarios. It exposes an
 
 You can find more information on this on our product page under [System Types](https://help.sap.com/docs/identity-provisioning/identity-provisioning/system-types?locale=en-US).
 
-The Identity Provisioning service supports provisioning of users and groups between multiple supported cloud and on-premise systems, both SAP and non-SAP. The complete list can be found under [Supported Systems](https://help.sap.com/docs/identity-provisioning/identity-provisioning/supported-systems?locale=en-US)
+The Identity Provisioning service supports provisioning of users and groups between multiple cloud and on-premise systems, both SAP and non-SAP. The complete list can be found under [Supported Systems](https://help.sap.com/docs/identity-provisioning/identity-provisioning/supported-systems?locale=en-US)
 
 
 ## Exercise 1.1 Creating a source system in IPS 
 
-1. Navigate to the Identity Provisioning tab in the administrative console: 
+1. Navigate to the Identity Provisioning menu in the administrative console: 
 
 <img src="/exercises/ex1/images/12.png">
 
@@ -47,7 +47,7 @@ The Identity Provisioning service supports provisioning of users and groups betw
 
 <img src="/exercises/ex1/images/14.png">
    
-5. Choose a meaningful name and description, such as **SAP SFSF**  and **my source system** for your system. Do not save yet the system.
+5. Choose a meaningful name and description, such as **SAP SFSF**  and **my source system** for your system. **Do not save yet the system.**
 
 <img src="/exercises/ex1/images/15.png">
    
@@ -67,7 +67,7 @@ The Identity Provisioning service supports provisioning of users and groups betw
     
 <img src="/exercises/ex1/images/19.png">
 
-10. After we have created the source system, let us continue adding the rest of the necessary properties: 
+10. After you have created the source system, continue adding the rest of the necessary properties: 
 The following properties are of type **Standard**
 
 | Name         |Value | 
@@ -90,7 +90,7 @@ The following property is of type **Credential**
 |ips.trace.failed.entity.content |true|  
 
 If a provisioning job repeatedly fails and you need problem investigation, you can enable logging and tracing for the personal and sensitive data of your provisioned entities.
-To do this, we set this property to true. If the property is not set, in the logs you see: content = <hidden content>.
+To do this, set this property to true. If the property is not set, in the logs you see: content = <hidden content>.
 
 12. Check that your properties are similar to the bellow screenshot and press  **Save**.
 
