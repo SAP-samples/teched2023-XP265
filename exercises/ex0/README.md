@@ -24,18 +24,18 @@ The Identity Authentication service provides you with controlled cloud-based acc
 **What is Identity Provisioning?**
 The Identity Provisioning service automates identity lifecycle processes. It helps you provision identities and their authorizations to various cloud and on-premise business applications.
 
-**What is Authorization Aanagement?** 
+**What is Authorization Management?** 
 Authorization management provides a central management of end-user authorizations for business applications based on SAP BTP Technology Platform. AMS is based on the existing Identity Directory of SAP Cloud Identity Services and enables customers to manage assignments of policies to users based on the Identity Directory SCIM API.
 
 **What is the Identity Directory?**
 Identity Directory is the central component for persisting users and groups inside the SAP Cloud Identity Services.
 The usage of the Identity Directory simplifies how customers are connecting to our SAP SaaS applications, by using it as a central point of truth for the SAP cloud environment. 
-Aditionally to the SAP Cloud Identity Services admin console UI, a SCIM 2.0 API allows you to programmatically access the identities inside the directory.
+Additionally to the SAP Cloud Identity Services admin console UI, a SCIM 2.0 API allows you to programmatically access the identities inside the directory.
 
-For more information around these services, feel free to explore our [SAP Cloud Identity Services](www.help.sap.com/sci) documentation as well as our [API collecation](https://api.sap.com/package/SCPIdentityServices/rest) published on the SAP API Business Accelerator hub . All the services can be visually interacted with from the SAP Cloud Identity Services admin console.   
+For more information around these services, feel free to explore our [SAP Cloud Identity Services](https://help.sap.com/docs/cloud-identity) documentation as well as our [API collection](https://api.sap.com/package/SCPIdentityServices/rest) published on the SAP API Business Accelerator hub . All the services can be visually interacted with from the SAP Cloud Identity Services admin console.   
 
 ## Hands-on scenario
-To better understand the provisioing functionality available in the SAP Cloud Identity Service, we will go together through the next exercises. The scenario is chosen in such a way that it resembles albeit at small scale the identity lifecycle in a landscape. We will start by connecting a user source to the Identity Provisioning. For this, we will use a SAP SuccessFactors Systems. Afterwards, we will configure a target system - the Identity Directory. We will go through the different job types and learn how to change the default IPS transformations and how to validate their behavior.
+To better understand the provisioning functionality available in the SAP Cloud Identity Service, we will go together through the next exercises. The scenario is chosen in such a way that it resembles albeit at small scale the identity lifecycle in a landscape. We will start by connecting a user source to the Identity Provisioning. For this, we will use a SAP SuccessFactors Systems. Afterwards, we will configure a target system - the Identity Directory. We will go through the different job types and learn how to change the default IPS transformations and how to validate their behavior.
 
 ## Accessing the SAP Cloud Identity Services tenant
 
