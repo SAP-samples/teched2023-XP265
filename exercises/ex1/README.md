@@ -14,7 +14,7 @@ You can connect one source system to one or multiple target systems.
 
 **Target Systems** 
 
-A target system is the connector used for writing (provisioning) entities. Target systems are usually clouds, where Identity Provisioning creates or updates the entities taken from the source system.
+A target system is the connector used for writing (provisioning) entities. Target systems are usually cloud-based, where Identity Provisioning creates or updates the entities taken from the source system.
 
 A target system can be connected to a single or multiple source systems.
 
@@ -24,7 +24,7 @@ A proxy system is a special connector used for "hybrid" scenarios. It exposes an
 
 <img src="/exercises/ex1/images/proxy.png" width=50% height=50% >
 
-More about it, on our product page under [System Types](https://help.sap.com/docs/identity-provisioning/identity-provisioning/system-types?locale=en-US).
+You can find more information on this on our product page under [System Types](https://help.sap.com/docs/identity-provisioning/identity-provisioning/system-types?locale=en-US).
 
 The Identity Provisioning service supports provisioning of users and groups between multiple supported cloud and on-premise systems, both SAP and non-SAP. The complete list can be found under [Supported Systems](https://help.sap.com/docs/identity-provisioning/identity-provisioning/supported-systems?locale=en-US)
 
@@ -43,15 +43,15 @@ The Identity Provisioning service supports provisioning of users and groups betw
 
 <img src="/exercises/ex1/images/13.png">
    
-4. Search for the **SAP SuccessFactors** connector Type
+4. Search for the **SAP SuccessFactors** connector **Type**
 
 <img src="/exercises/ex1/images/14.png">
    
-5. Choose a meaningfull name and description, such as **SAP SFSF**  and **my source system** for your system. Do not save yet the system.
+5. Choose a meaningful name and description, such as **SAP SFSF**  and **my source system** for your system. Do not save yet the system.
 
 <img src="/exercises/ex1/images/15.png">
    
-6. Navigate to the third tab called **Properties** press on the button **Add** and choose **Standard**
+6. Navigate to the third tab called **Properties**, press on the button **Add** and choose **Standard**
 
 <img src="/exercises/ex1/images/16.png">
 
@@ -59,15 +59,15 @@ The Identity Provisioning service supports provisioning of users and groups betw
 
 <img src="/exercises/ex1/images/17.png">
      
-8.  When you are done press  **Save**.
+8.  When you are done press **Save**
 
  <img src="/exercises/ex1/images/18.png">
 
-9. Your saved system should look like this :
+9. Your saved system should look like this:
     
 <img src="/exercises/ex1/images/19.png">
 
-10. After we have created the source system let us continue adding the rest of the necesary properties: 
+10. After we have created the source system, let us continue adding the rest of the necessary properties: 
 The following properties are of type **Standard**
 
 | Name         |Value | 
@@ -92,7 +92,7 @@ The following property is of type **Credential**
 If a provisioning job repeatedly fails and you need problem investigation, you can enable logging and tracing for the personal and sensitive data of your provisioned entities.
 To do this, we set this property to true. If the property is not set, in the logs you see: content = <hidden content>.
 
-12. Check that your properties are simmilar to the bellow screenshot and press  **Save**.
+12. Check that your properties are similar to the bellow screenshot and press  **Save**.
 
 <img src="/exercises/ex1/images/111.png">
 
