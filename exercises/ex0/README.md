@@ -14,7 +14,7 @@ SAP Cloud Identity Services (SCI) are the default to authenticate and provision 
 
 The number of **pre-integrated SAP solutions** that require **SAP Cloud Identity Services** will increase.
 There is no need to separately license the usage of our services, when used with SAP cloud solutions. 
-**By default**, we offer **two tenants**: 
+**By default**, we offer **two SCI tenants**: 
 * Test tenant
 * Production tenant
 
@@ -94,11 +94,11 @@ URL: https://bestrunXY.accounts.ondemand.com/admin/
 
 2. Type the username and password and press **Log On**
 
-   <img src="/exercises/ex0/images/01.png" width=50% height=50%>
+   <img src="/exercises/ex0/images/02.png" width=50% height=50%>
 
 3. You have access to the SAP Cloud Identity Services administrative console.
    
-   <img src="/exercises/ex0/images/02.png" width=50% height=50%>
+   <img src="/exercises/ex0/images/01.png" width=50% height=50%>
    
 
    
