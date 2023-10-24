@@ -5,7 +5,7 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2022 session XP265 - SAP Cloud Identity Services: How to Provision Identities.
 
 ## Overview
 
