@@ -1,16 +1,16 @@
 # Exercise 2 - Adding a target system
 
-In this exercise, we will create a target system for the source system created at the previous Exercise. 
+In this exercise, you will create a target system for the source system created at the previous Exercise. 
 
 ## Exercise 2.1 Defining the Identity Directory as a target system
 
-As we have learned in the [Getting started](../ex0/README.md) chapter, each SAP SCI tenant includes an Identity Directory  (IdDS) that stores user, groups and group assignments. In this exercise we will configure IdDS as a provisioning target.  
+As we have learned in the [Getting started](../ex0/README.md) chapter, each SAP SCI tenant includes an Identity Directory  (IdDS) that stores user, groups and group assignments. In this exercise you will configure IdDS as a provisioning target.  
 
 1. Navigate to the SCI administrative console that corresponds to your seat. From the third tab **Identity Provisioning** please choose **Target Systems**
 
 <img src="/exercises/ex2/images/21.png" width=50% height=50%>
 
-2. In order to add a new Target System, please press on **Add**
+2. In order to add a new Target System, please press on **+Add**
 
 <img src="/exercises/ex2/images/22.png" width=50% height=50%>
    
@@ -20,7 +20,7 @@ As we have learned in the [Getting started](../ex0/README.md) chapter, each SAP 
 
 4. Choose a meaningful name and description, such as **Local Identity Directory**  and **my local identity directory** for your system. Please be informed that the System Name cannot be changed once the system is saved
    
-5. Under **Source Systems** we need to choose the source system that was created in the previous exercise
+5. Under **Source Systems** you need to choose the source system that was created in the previous exercise
 
 <img src="/exercises/ex2/images/25.png" width=50% height=50%>  
 
