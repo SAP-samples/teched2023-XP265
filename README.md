@@ -1,6 +1,7 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-XP265)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-XP265)
 
-# Session ID - Session Title
+# XP265 - SAP Cloud Identity Services: How to Provision Identities 
+
 
 ## Description
 
