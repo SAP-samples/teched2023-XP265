@@ -1,24 +1,24 @@
 # Exercise 4 - Identity Provisioning Operations
 
-In this exercise, we will learn about the various Operations available in the Identity Provisioing service. We will start by understanding what transformations are. 
+In this exercise, you will learn about the various Operations available in the Identity Provisioing service. We will start by understanding what transformations are. 
 
 **Transformations**
-For every system supported by the Identity Provisioning service, there is an initial (default) transformation logic that converts the system specific JSON representation of the entities from/to one common JSON. This default transformation is visible on the Transformations tab when you create a new system, after saving it.
+For every system supported by the Identity Provisioning service, there is an initial (default) transformation logic that converts the system specific representation of the entities from/to one common JSON. This default transformation is visible on the Transformations tab when you create a new system, after saving it.
 
 **Transformation Editors**
-The Identity Provisioning service provides two editors for working with the transformation code: graphical editor and JSON (text) editor. The graphical editor is displayed by default. You can switch between them on the Transformations tab as we will see in the next exercise. 
+The Identity Provisioning service provides two editors for working with the transformation code: graphical editor and JSON (code) editor. The graphical editor is displayed by default. You can switch between them on the Transformations tab as you will see in the next exercise. 
 Check the chapter [Transformations](https://help.sap.com/docs/identity-provisioning/identity-provisioning/transformations?locale=en-US) for more explanations and examples. 
 
 ## Exercise 4.1 Meet the graphical editor
 
-In the previous exercise, an error occurred in the last executed job. In this case, the reason was that the value for the department in the source system does not match one of the possible values in the target system. The scope of this exercise is to understand how to use the graphical editor, therefore we will perform a mapping between the possible values of the `department` attribute.  
+In the previous exercise, an error occurred in the last executed job. In this case, the reason was that the value for the department in the source system does not match one of the possible values in the target system. The scope of this exercise is to understand how to use the graphical editor, therefore you will perform a mapping between the possible values of the `department` attribute.  
 
-1. From your SCI admin console navigate to the third tab **Identity Provisioning** and choose Target Systems. We want to perform the value mapping in the target system because these values are specific to the Identity Directory target system specific.
+1. From your SCI admin console navigate to the third tab **Identity Provisioning** and choose Target Systems. You want to perform the value mapping in the target system because these values are specific to the Identity Directory target system specific.
 In the **Local Identity Directory** target system that we created in Exercise 2, navigate to the second tab **Transformations**
 
 <img src="/exercises/ex4/images/41.png">
 
-2. Notice the buttons on the upper right corner. From here you can shift between the two editors. Press on the button **Edit** and follow the next steps
+2. Notice the buttons on the upper right corner of the editor tab. From here you can shift between the two editors. Press on the button **Edit** and follow the next steps
 
 <img src="/exercises/ex4/images/42.png">
 
@@ -26,7 +26,7 @@ In the **Local Identity Directory** target system that we created in Exercise 2,
 
 <img src="/exercises/ex4/images/43.png">
 
-4. On the lower part of the pop-up menu, press on **Add** to add name-value pair for the specified expression
+4. On the lower part of the pop-up window, press on **Add** to add name-value pair for the specified expression
 
 <img src="/exercises/ex4/images/44.png">
 
@@ -54,7 +54,7 @@ In the **Local Identity Directory** target system that we created in Exercise 2,
 
 <img src="/exercises/ex4/images/410.png">
 
-11. Now let us run the job again. Navigate to the source system and choose the **SAP SFSF** source system. Press on the last tab **Jobs** and choose **Run Now** for the **Read Job**
+11. Please run the job again. Navigate to the source system and choose the **SAP SFSF** source system. Press on the last tab **Jobs** and choose **Run Now** for the **Read Job**
 
 <img src="/exercises/ex4/images/411.png">
 
@@ -66,19 +66,19 @@ In the **Local Identity Directory** target system that we created in Exercise 2,
 
 <img src="/exercises/ex4/images/413.png">
 
-14. Let us check a user record. From the SCI admin console navigate to the second tab **User Management**
+14. Have a look at a user record. From the SCI admin console navigate to the second tab **User Management**
 
 <img src="/exercises/ex4/images/414.png">
 
-15. We can search for the user "HR" because we remember that this was one of the users that had as `department` value `SMB` in SAP SFSF - and this caused an error previously. Choose this user and let us scroll to the `department` attribute
+15. You can search for the user "HR" because this was one of the users that had as `department` value `SMB` in SAP SFSF - and this caused an error previously. Choose this user and let us scroll to the `department` attribute
 
 <img src="/exercises/ex4/images/415.png">
 
-16. We can observe that the change in the mapping transformation worked
+16. As expected, the change in the mapping transformation worked
 
 <img src="/exercises/ex4/images/416.png">
 
 
 ## Summary 
-After completing these steps you learned what the transformations are and how they can be changed. We edited the value mapping for the attribute `department` and tested the results of our changes. Join us on the next exercise to learn more exciting IPS features [Exercise 5 - Advanced Identity Provisioning Operations](../ex5/README.md)
+After completing these steps you learned what the transformations are and how they can be changed. You edited the value mapping for the attribute `department` and tested the results of our changes. Join us on the next exercise to learn more exciting IPS features [Exercise 5 - Advanced Identity Provisioning Operations](../ex5/README.md)
 
