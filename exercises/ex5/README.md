@@ -15,11 +15,11 @@
 6. In the pop-up copy the bellow conditions and press **Save**.
 
 ```
-isValidEmail($.emails[0].value) && (($.emails[0].value =~ /.*@successfactors.com/ ) || ($.emails[0].value =~ /.*@sap-test.de/ ))
+isValidEmail($.emails[0].value) && $.emails[0].value =~ /.*@successfactors.de/ 
 ```
 <img src="/exercises/ex5/images/521.png">
 
-This condition ensures that only users with a valid email address are read from the source system. Furthermore, the job will only filter for users with email addresses belonging to specific domains. 
+This condition ensures that only users with a valid email address are read from the source system. Furthermore, the job will only filter for users with email addresses belonging to specific domains, in this case we want to only filter users that belong to a _SuccessFactors_ domain.
 
 ## Exercise 5.2 Meet the Simulate job
 
@@ -46,8 +46,6 @@ In the next exercise we will learn how to use properties.
 
 We have already used properties to configure the connection between your source and target systems in the first exercise. However, this is not the only benefit we have from them. Properties help you to customize the way your identities are read from a source system or provisioned to the target one. They can also filter the entities and attributes which should be read or skipped during the provisioning job. 
 
-All the available properties of the Identity Provisioning service can be found on our product page under [List of Properties](https://help.sap.com/docs/identity-provisioning/identity-provisioning/list-of-properties?locale=en-US&version=Cloud).
-
 1. Let us continue with the configuration from the previous exercise. Navigate to the **SAP SFSF** source system and go to the tab **Properties**. Add the following two properties:
 
 | Name         |Value | 
@@ -60,32 +58,51 @@ All the available properties of the Identity Provisioning service can be found o
 Press on **Save**. 
 
 2. Navigate to the Target System **Local Identity Directory** and go the **Properties** tab
-3. Add the following property
-
-| Name         |Value | 
-|--------------|:-----:|
-|ips.delete.threshold.users |2|  
-
-The purpose of this property is to limit the number of users that are deleted in the target system. 
-
-Additionally, modify the following property:
+3. Modify the following property
 
 | Name         |Value | 
 |--------------|:-----:|
 |ips.trace.failed.entity.content |true|  
 
-Note that these changes are solely for exercise purpose and in a real landscape you might have different requirements. 
+If a provisioning job repeatedly fails and you need problem investigation, you can enable logging and tracing for the personal and sensitive data of your provisioned entities. To do this, set this property to true.
+
+If the property is not set, in the logs you see: content = hidden content
+
 
 4. Let us run the Simulate job one more time to see the result of our changes. For this we will navigate back to our source systems  and go to the last tab **Jobs**. Choose **Simulate Job** and press on **Run Now**
    
-4. Navigate to the **Provisioning Logs** (from the Identity Provisioning drop-down menu) and notice the job result.
+5. Navigate to the **Provisioning Logs** (from the Identity Provisioning drop-down menu) and notice the job result.
    
-<img src="/exercises/ex5/images/532.png">
+<img src="/exercises/ex5/images/534.png">
 
-As expected, no users would be deleted and the job failed due to the `ips.delete.threshold.users` property. Moreover, we can download both job logs for more details. 
+Now you can notice that the domain used in the condition was wrong and therefore all the users will have been deleted, including the ones belonging to _*@successfactors.com_. This will be corrected in the next exercise. 
 
-This concludes our session today. If you want to exercise more with the SAP Cloud Identity Services but you do not have an environment already, check the trial account offerings as described in [Getting a Trial Tenant](https://help.sap.com/docs/identity-provisioning/identity-provisioning/getting-trial-tenant?locale=en-US&version=Cloud&q=trial%20account).
+6. Return to the  **SAP SFSF** source system  and navigate to the second tab **Transformations**. Press on the **Edit** button from the right side of the menu. Choose Edit Entity -> user -> Edit condition.  Correct the existing condition as depicted bellow : 
+   
+```
+isValidEmail($.emails[0].value) && $.emails[0].value =~ /.*@successfactors.com/ 
+```
+<img src="/exercises/ex5/images/536.png">
 
+7. Press on **Save**.
+   
+8. Now that you have corrected the domain, simmulate the job one last time.  Navigate to the last tab **Jobs**. Choose **Simulate Job** and press on **Run Now**
+   
+9. As expected, not all read entities will be deleted. After checking the logs, you will notice that there are no more users with the  _*@successfactors.com_  domain skipped. The users that would be deleted are the ones belonging to other domains.
+
+<img src="/exercises/ex5/images/539.png">
+    
+10.  Navigate to the **SAP SFSF* source system, choose the last tab **Jobs** and this time choose **Read Job** and press on **Run Now**
+    
+11.   Navigate to the **Provisioning Logs** (from the Identity Provisioning drop-down menu) and notice the job result.
+
+<img src="/exercises/ex5/images/5311.png"> 
+
+The expected ammount of users was deleted. 
+
+These are just few of the many properties that you can use in IPS. All the available properties of the Identity Provisioning service can be found on our product page under [List of Properties](https://help.sap.com/docs/identity-provisioning/identity-provisioning/list-of-properties?locale=en-US&version=Cloud).
+
+For example, in case one wants to limit the number of users deleted in the target system, the property `ips.delete.threshold.users` can be used. If more users than the value of the property should be deleted, then the job execution will be errored out, preventing the actual deletion. 
 
 ## Summary 
 In this hands-on session you learned what the SAP Cloud Identity Services are and how to configure and troubleshoot systems in the Identity Provisioning service. 
