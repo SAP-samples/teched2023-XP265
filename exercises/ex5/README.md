@@ -34,7 +34,9 @@ This condition ensures that only users with a valid email address are read from 
 4. We notice that many users would be deleted
 <img src="/exercises/ex5/images/523.png">
 
-6. Let us try to see why. Press on **Download All Skipped Entity Logs for This job**
+6. Let us try to see why. Press on **Download All Skipped Entity Logs for This job** from the top right corner: 
+
+<img src="/exercises/ex5/images/526.png">
 
 7. In the downloaded file we will see the following message:
    
