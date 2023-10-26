@@ -28,6 +28,8 @@ As we have learned in the [Getting started](../ex0/README.md) chapter, each SAP 
 
 <img src="/exercises/ex2/images/24.png" width=50% height=50%>
 
+As the users and groups will be provisioned to the identity directory of your current SAP Cloud Identity Services tenant, you don't have to set up connectivity and authentication properties for the target system.
+
 
 ## Summary
 
