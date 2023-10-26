@@ -90,7 +90,7 @@ The following property is of type **Credential**
 |ips.trace.failed.entity.content |true|  
 
 If a provisioning job repeatedly fails and you need problem investigation, you can enable logging and tracing for the personal and sensitive data of your provisioned entities.
-To do this, set this property to true. If the property is not set, in the logs you see: content = <hidden content>.
+To do this, set this property to true. If the property is not set, in the logs you see: content = hidden content.
 
 12. Check that your properties are similar to the bellow screenshot and press  **Save**.
 
