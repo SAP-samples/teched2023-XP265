@@ -31,40 +31,44 @@ This condition ensures that only users with a valid email address are read from 
    
 3. Navigate to the **Provisioning Logs** (from the Identity Provisioning drop-down menu) and notice the job result
    
-4. We notice that many users would be deleted
+4. At this stage many users would be deleted
 <img src="/exercises/ex5/images/523.png">
 
-6. Let us try to see why. Press on **Download All Skipped Entity Logs for This job** from the top right corner: 
+6. You can check why. Press on **Download All Skipped Entity Logs for This job** from the top right corner: 
 
 <img src="/exercises/ex5/images/526.png">
 
-7. In the downloaded file we will see the following message:
+7. In the downloaded file you will see the following message:
    
 <img src="/exercises/ex5/images/524.png">
 
-In the next exercise we will learn how to use properties.
+In the next exercise you will learn how to use properties.
 
 ## Exercise 5.3 Working with Properties
 
-We have already used properties to configure the connection between your source and target systems in the first exercise. However, this is not the only benefit we have from them. Properties help you to customize the way your identities are read from a source system or provisioned to the target one. They can also filter the entities and attributes which should be read or skipped during the provisioning job. 
+You have already used properties to configure the connection between your source and target systems in the first exercise. However, this is not the only benefit one has from them. Properties help you to customize the way your identities are read from a source system or provisioned to the target one. They can also filter the entities and attributes which should be read or skipped during the provisioning job. 
 
-1. Let us continue with the configuration from the previous exercise. Navigate to the **SAP SFSF** source system and go to the tab **Properties**. Add the following two properties:
+1. Let's continue with the configuration from the previous exercise. Navigate to the **SAP SFSF** source system and go to the tab **Properties**. Add the following two properties:
 
 | Name         |Value | 
 |--------------|:-----:|
 |ips.trace.skipped.entity |true|  
 |ips.trace.skipped.entity.content |true|  
 
+The result should look like this: 
+
 <img src="/exercises/ex5/images/531.png">
 
 Press on **Save**. 
 
 2. Navigate to the Target System **Local Identity Directory** and go the **Properties** tab
+
 3. Modify the following property
 
 | Name         |Value | 
 |--------------|:-----:|
 |ips.trace.failed.entity.content |true|  
+
 
 If a provisioning job repeatedly fails and you need problem investigation, you can enable logging and tracing for the personal and sensitive data of your provisioned entities. To do this, set this property to true.
 
@@ -84,6 +88,8 @@ Now you can notice that the domain used in the condition was wrong and therefore
 ```
 isValidEmail($.emails[0].value) && $.emails[0].value =~ /.*@successfactors.com/ 
 ```
+The result should look like this:
+
 <img src="/exercises/ex5/images/536.png">
 
 7. Press on **Save**.
