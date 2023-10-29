@@ -48,7 +48,7 @@ In the next exercise you will learn how to use properties.
 
 You have already used properties to configure the connection between your source and target systems in the first exercise. However, this is not the only benefit one has from them. Properties help you to customize the way your identities are read from a source system or provisioned to the target one. They can also filter the entities and attributes which should be read or skipped during the provisioning job. 
 
-1. Let's continue with the configuration from the previous exercise. Navigate to the **SAP SFSF** source system and go to the tab **Properties**. Add the following two properties:
+1. Let's continue with the configuration from the previous exercise. Navigate to the **SAP SFSF** source system and go to the tab **Properties**. Add the following two **Standard** properties:
 
 | Name         |Value | 
 |--------------|:-----:|
@@ -77,7 +77,7 @@ If the property is not set, in the logs you see: content = hidden content
 
 4. Let us run the Simulate job one more time to see the result of our changes. For this we will navigate back to our source systems  and go to the last tab **Jobs**. Choose **Simulate Job** and press on **Run Now**
    
-5. Navigate to the **Provisioning Logs** (from the Identity Provisioning drop-down menu) and notice the job result.
+5. Navigate to the **Provisioning Logs** (from the Identity Provisioning drop-down menu), notice the job result and download the skipped entities file.
    
 <img src="/exercises/ex5/images/534.png">
 
