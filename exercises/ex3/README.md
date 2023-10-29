@@ -62,7 +62,7 @@ For this exercise, you will use only a CSV file for users that was created for y
 
 ## Exercise 3.3 The Read job
 
-1. From the Jobs Section of the source system choose the **Read Job**
+1. From the Jobs Section of the source system choose the **Read Job** and press on **Run Now**
    
 <img src="/exercises/ex3/images/331.png">
 
